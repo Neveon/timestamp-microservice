@@ -48,9 +48,8 @@ app.get('/api/timestamp/:date_string?', (req, res) => {
 });
 
 /** Redirecting home to api/timestamp which returns current date */
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
   res.redirect('/api/timestamp/');
-  next();
 });
 
 app.listen(process.env.PORT || 3000 );
