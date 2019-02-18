@@ -21,3 +21,5 @@ functions used above.
 `// enabling cors so that the API is remotely testable by FCC 
 var cors = require('cors');
 app.use(cors({optionSuccessStatus: 200}));  // some legacy browsers choke on 204`
+
+[You can access the project online here:](https://neveon-timestamp-project.glitch.me/api/timestamp/)
